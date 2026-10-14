@@ -1,6 +1,6 @@
 queue = ["Aziza", "Bekzod"]
 queue.append("Malika")
-removed = queue.pop("Aziza")
-print(queue)
-print(removed)
+entered = queue.pop(0)
+print(f"Entered: {entered}")
+print(f"Remaining queue: {queue}")
 
